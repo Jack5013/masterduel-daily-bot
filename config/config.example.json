@@ -1,0 +1,10 @@
+{
+  "window_title": "Yu-Gi-Oh! Master Duel",
+  "dry_run": true,
+  "loop_interval_sec": 1.0,
+  "action_delay_sec": 0.3,
+  "max_runtime_min": 30,
+  "artifacts_dir": "artifacts",
+  "templates_dir": "templates",
+  "ocr_lang": "eng"
+}
