@@ -1,0 +1,20 @@
+{
+  "policy": "global_fixed_score",
+  "tasks": {
+    "spell_3": { "name": "发动魔法卡3次", "score": 2 },
+    "trap_2": { "name": "发动陷阱卡2次", "score": 2 },
+    "fusion_pendulum_link_3": { "name": "融合/灵摆/连接召唤怪兽3次", "score": 4 },
+    "special_summon_5": { "name": "特殊召唤怪兽5次", "score": 3 },
+    "normal_summon_3": { "name": "召唤怪兽3次", "score": 2 },
+    "solo_duel_3": { "name": "通过单人模式进行决斗3次", "score": 3 },
+    "destroy_5": { "name": "破坏卡片5次", "score": 4 },
+    "win_1": { "name": "赢得决斗1次", "score": 5 },
+    "ritual_synchro_xyz_3": { "name": "仪式/同步/超量召唤怪兽3次", "score": 4 },
+    "watch_replay": { "name": "看录像", "score": 1 }
+  },
+  "claim_policy": {
+    "skip_days": [1, 2],
+    "month_end": "claim_all",
+    "normal_day": "claim_lowest_3"
+  }
+}
